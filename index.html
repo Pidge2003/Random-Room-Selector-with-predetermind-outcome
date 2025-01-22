@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Room Selector</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Random Room Selector</h1>
+  </header>
+  <main>
+    <section class="input-section">
+      <h2>Enter Names</h2>
+      <input type="text" id="nameInput" placeholder="Enter a name">
+      <button id="addNameButton">Add Name</button>
+      <div id="nameList"></div>
+    </section>
+
+    <section class="room-selection-section">
+      <h2>Select Number of Rooms</h2>
+      <select id="roomCount">
+        <option value="1">1 Room</option>
+        <option value="2">2 Rooms</option>
+        <option value="3" selected>3 Rooms</option>
+        <option value="4">4 Rooms</option>
+      </select>
+      <button id="selectRoomButton">Select Rooms</button>
+    </section>
+
+    <section class="room-section">
+      <div id="roomResults"></div>
+    </section>
+  </main>
+  <footer>
+    <p>Random Room Selector © 2025</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
